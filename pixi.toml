@@ -3,6 +3,7 @@ authors = ["Michael P. Adams"]
 channels = ["conda-forge"]
 channel-priority = "strict"
 name = "pixi_env"
+platforms = ["osx-arm64", "linux-64", "win-64"]
 version = "0.1.0"
 
 [tasks]
