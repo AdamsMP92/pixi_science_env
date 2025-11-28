@@ -2,7 +2,6 @@
 set -e
 
 echo "🔧 Installing Pixi environment..."
-pixi init .
 pixi install
 
 echo ""
