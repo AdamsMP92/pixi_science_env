@@ -3,7 +3,7 @@ authors = ["Michael P. Adams"]
 channels = ["conda-forge"]
 channel-priority = "strict"
 name = "pixi_env"
-platforms = ["osx-arm64", "linux-64", "win-64"]
+platforms = ["osx-arm64"]
 version = "0.1.0"
 
 [tasks]
@@ -31,10 +31,10 @@ json5 = ">=0.12.1,<0.13"
 imageio = ">=2.37.0,<3"
 seaborn = ">=0.13.2,<0.14"
 scikit-image = ">=0.24.0,<0.25"
-scikit-learn = ">=1.6.1,<2"
+scikit-learn = ">=1.8.0,<2"
 pyvista = ">=0.46.1,<0.47"
 pyvistaqt = ">=0.11.3,<0.12"
-jupyterlab = ">=4.4.6,<5"
+jupyterlab = ">=4.5.4,<5"
 ipywidgets = ">=8.1.7,<9"
 sphinx = ">=4.5.0,<5"
 myst-parser = ">=0.18.1,<0.19"
@@ -42,5 +42,13 @@ furo = ">=2023.5.20,<2024"
 breathe = ">=4.35.0,<5"
 exhale = ">=0.3.7,<0.4"
 mypy = ">=1.17.1,<2"
-ruff = ">=0.14.6,<0.15"
+ruff = "==0.15.17"
+h5py = ">=3.15.1,<4"
+gmsh = ">=4.15.2,<5"
+meshio = ">=5.3.5,<6"
+python-gmsh = ">=4.15.2,<5"
+pytest = ">=9.1.1,<10"
+
+[pypi-dependencies]
+paperfig = { git = "https://github.com/AdamsMP92/paperfig.git" }
 
